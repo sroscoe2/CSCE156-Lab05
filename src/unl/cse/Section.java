@@ -31,10 +31,10 @@ public class Section {
 	
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
-		sb.append("SECTION " + this.getSectionNumber() + "\n");
+		sb.append(String.format("SECTION %s\n", this.getSectionNumber()));
 		sb.append("---------------------------------------------\n");
 		for(Object o : this.sectionRoster) {
-			sb.append("  " + o + "\n");
+			sb.append(String.format(" %s\n", o));
 		}
 		return sb.toString();
 	}
