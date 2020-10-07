@@ -1,5 +1,9 @@
 package unl.cse;
 
+/**
+ * Demo driver class for the polymorphism activities
+ *
+ */
 public class CourseDemo {
 
 	public static void main(String args[]) {

@@ -3,6 +3,10 @@ package unl.cse;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Models an individual course.
+ *
+ */
 public class Course {
 
 	private final String department;
@@ -21,7 +25,7 @@ public class Course {
 	
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
-		sb.append(this.department + " " + this.number + "\n");
+		sb.append(String.format("%s %s\n", department, number));
 		sb.append("=============================================\n");
 		for(Object s : this.courseRoster) {
 			sb.append(s);

@@ -1,5 +1,9 @@
 package unl.cse;
 
+/**
+ * Models a basic droid (android, robot)
+ *
+ */
 public class Droid {
 
 	private final String designation;
