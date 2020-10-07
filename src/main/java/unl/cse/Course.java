@@ -3,8 +3,6 @@ package unl.cse;
 import java.util.ArrayList;
 import java.util.List;
 
-import unl.cse.entities.Student;
-
 public class Course {
 
 	private final String department;

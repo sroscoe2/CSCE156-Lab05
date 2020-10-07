@@ -1,4 +1,4 @@
-package unl.cse.maps;
+package unl.cse;
 
 import java.io.File;
 import java.util.ArrayList;

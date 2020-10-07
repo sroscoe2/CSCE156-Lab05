@@ -3,8 +3,6 @@ package unl.cse;
 import java.util.ArrayList;
 import java.util.List;
 
-import unl.cse.entities.Student;
-
 /**
  * A <code>Section</code> is a class that holds a certain
  * number of students, but all the students in one section

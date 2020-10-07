@@ -1,9 +1,5 @@
 package unl.cse;
 
-import unl.cse.entities.Droid;
-import unl.cse.entities.Graduate;
-import unl.cse.entities.Undergraduate;
-
 public class CourseDemo {
 
 	public static void main(String args[]) {

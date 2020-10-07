@@ -1,4 +1,4 @@
-package unl.cse.entities;
+package unl.cse;
 
 public class Graduate extends Student {
 
