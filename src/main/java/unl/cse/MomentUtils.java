@@ -3,7 +3,11 @@ package unl.cse;
 import java.util.Arrays;
 import java.util.List;
 
-public class MomentStats {
+public class MomentUtils {
+	
+	public static double moment(List<Double> values, double alpha, int k) {
+		return 0.0;
+	}
 	
 	public static void main(String args[]) {
 		

@@ -28,7 +28,7 @@ public class ModeDemo {
 	
 	/**
 	 * This method takes a map (assumed to be a list of integers mapping
-	 * to their multiplicity)
+	 * to their multiplicity) and returns a set of all modes.
 	 * @param m
 	 * @return
 	 */

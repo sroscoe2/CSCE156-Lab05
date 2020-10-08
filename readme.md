@@ -162,7 +162,7 @@ You may recognize several special cases of the moment: for
 $\alpha = 0, k = 1$ this is the sample mean.  For $\alpha$ being the
 mean, and $k = 2$, this is the definition of variance.
 
-1.  Open the `MomentStats.java` file.
+1.  Open the `MomentUtils.java` file.
 
 2.  Define and implement 4 static methods that compute the moment. All
     of them should take a `List` of `Double` values, but they should differ as
@@ -172,7 +172,7 @@ mean, and $k = 2$, this is the definition of variance.
 
     -   One that takes only $k$ as a parameter
 
-    -   One that takes both $\alpha$ and $k$
+    -   One that takes both $\alpha$ and $k$ (this signature has been provided)
 
     -   One that takes neither
 
@@ -301,16 +301,18 @@ non-student objects
 the `Section` class to only hold `Section`(s) of a particular type. Try this solution.
 
 **New Problem**: You will find that you are not able to add sections
-holding different types. Explain (to yourself or partner) why this is the
-case.
+holding different types.  For example, you will not be able to add a 
+section of `Graduates` *and* `Undergraduates` only one or the other. 
+Explain (to yourself or partner) why this is the case.
 
 **Solution B**: We want the `Course` class to be able to hold `Section`(s) 
 of any type of student. Remove the parameterizations you did in Solution A and instead
 of parameterizing the class, parameterize the `courseRoster` list so that it can only
 hold sections containing objects which must be a subtype of `Student` (hint: use
-the wildcard). Make any additional changes in the `Course` class as necessary. If
-your changes were correct, then adding the section of `Droid`s should no longer
-be allowed.
+the wildcard).  Parameterize the `addSection` method so that it only accepts 
+sections of one type of student (and so that no warnings or compiler errors are
+issued).  If your changes were correct, then adding the section of `Droid`s 
+should no longer be allowed.
 
 ### 3.3.3. Parameterizing a class with a bound
 
