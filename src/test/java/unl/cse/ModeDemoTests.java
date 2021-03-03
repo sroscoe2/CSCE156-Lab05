@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Set;
 
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 /**
  * This is a suite of tests for methods in the {@link #ModeDemo} class.
@@ -21,7 +21,7 @@ public class ModeDemoTests {
 	 * fixed list of integers.
 	 */
 	@Test
-	void computeMultiplicitiesFixedTest01() {
+	public void computeMultiplicitiesFixedTest01() {
 		List<Integer> input = Arrays.asList(6, 6, 7, 1, 2, 3, 3, 2, 1, 4, 5, 6);
 		Map<Integer, Integer> expected = Map.of(
 				1, 2, 
@@ -40,7 +40,7 @@ public class ModeDemoTests {
 	 * fixed list of integers.
 	 */
 	@Test
-	void computeMultiplicitiesFixedTest02() {
+	public void computeMultiplicitiesFixedTest02() {
 		List<Integer> input = Arrays.asList(1, 2, 3, 4, 5);
 		Map<Integer, Integer> expected = Map.of(
 				1, 1, 
@@ -57,7 +57,7 @@ public class ModeDemoTests {
 	 * fixed list of integers.
 	 */
 	@Test
-	void computeMultiplicitiesFixedTest03() {
+	public void computeMultiplicitiesFixedTest03() {
 		List<Integer> input = Arrays.asList(1, 1, 1, 1, 1);
 		Map<Integer, Integer> expected = Map.of(
 				1, 5);
@@ -70,7 +70,7 @@ public class ModeDemoTests {
 	 * fixed list of integers.
 	 */
 	@Test
-	void computeMultiplicitiesFixedTest04() {
+	public void computeMultiplicitiesFixedTest04() {
 		List<Integer> input = Arrays.asList(1, 1, 2, 2, 3, 3, 4, 4);
 		Map<Integer, Integer> expected = Map.of(
 				1, 2,
@@ -86,7 +86,7 @@ public class ModeDemoTests {
 	 * fixed list of integers.
 	 */
 	@Test
-	void computeMultiplicitiesFixedTest05() {
+	public void computeMultiplicitiesFixedTest05() {
 		List<Integer> input = Arrays.asList(1, 1, 0, 2, 3, 9, 4, 6, 8);
 		Map<Integer, Integer> expected = Map.of(
 				0, 1,
@@ -107,7 +107,7 @@ public class ModeDemoTests {
 	 * fixed list of integers.
 	 */
 	@Test
-	void findModesFixedTest01() {
+	public void findModesFixedTest01() {
 		Map<Integer, Integer> input = Map.of(
 				1, 2, 
 				2, 2, 
@@ -126,7 +126,7 @@ public class ModeDemoTests {
 	 * fixed list of integers.
 	 */
 	@Test
-	void findModesFixedTest02() {
+	public void findModesFixedTest02() {
 		Map<Integer, Integer> input = Map.of(
 				1, 1, 
 				2, 1, 
@@ -143,7 +143,7 @@ public class ModeDemoTests {
 	 * fixed list of integers.
 	 */
 	@Test
-	void findModesFixedTest03() {
+	public void findModesFixedTest03() {
 		Map<Integer, Integer> input = Map.of(
 				1, 5);
 		Set<Integer> expected = Set.of(1);
@@ -156,7 +156,7 @@ public class ModeDemoTests {
 	 * fixed list of integers.
 	 */
 	@Test
-	void findModesFixedTest04() {
+	public void findModesFixedTest04() {
 		Map<Integer, Integer> input = Map.of(
 				1, 2,
 				2, 2, 
@@ -172,7 +172,7 @@ public class ModeDemoTests {
 	 * fixed list of integers.
 	 */
 	@Test
-	void findModesFixedTest05() {
+	public void findModesFixedTest05() {
 		Map<Integer, Integer> input = Map.of(
 				0, 1,
 				1, 2,

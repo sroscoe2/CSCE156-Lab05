@@ -1,6 +1,6 @@
 package unl.cse;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 public class CourseTests {
 
@@ -10,7 +10,7 @@ public class CourseTests {
 	 * file fails to compile, you've missed something.  
 	 */
 	@Test
-	void courseTests() {
+	public void courseTests() {
 		Undergraduate luke = new Undergraduate("1234", "Skywalker", "Luke");
 		Undergraduate wedge = new Undergraduate("5678", "Antilles", "Wedge");
 		
