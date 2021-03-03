@@ -5,6 +5,14 @@ import java.util.List;
 
 public class MomentUtils {
 	
+	/**
+	 * Computes the moment of the given set of values using the
+	 * specified <code>alpha</code> and <code>k</code> parameters.
+	 * @param values
+	 * @param alpha
+	 * @param k
+	 * @return
+	 */
 	public static double moment(List<Double> values, double alpha, int k) {
 		return 0.0;
 	}

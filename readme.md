@@ -143,9 +143,8 @@ use overloaded methods and generic types.
 
 ### 3.1 Method Overloading
 
-A *moment* is a statistical measure of the "shape" of a set of points.
-That is, it measures how a distribution deviates from a point. Formally,
-the *k*-th moment of a set of points *x_1, ..., x_n* is defined as
+A *moment* is a statistical measure of the "shape" of a set of values.  It measures how much a distribution deviates. Formally,
+the *k*-th moment of a set of values *x_1, ..., x_n* is defined as
 follows.  
 <p align="center">
 <img src="images/moment.png" 
@@ -168,11 +167,11 @@ mean, and *k = 2*, this is the definition of variance.
     of them should take a `List` of `Double` values, but they should differ as
     follows.
 
-    -   One that takes only α as a parameter
+    -   One that takes only *α* as a parameter
 
     -   One that takes only *k* as a parameter
 
-    -   One that takes both α and *k* (this signature has been provided)
+    -   One that takes both *α* and *k* (this signature has been provided)
 
     -   One that takes neither
 
